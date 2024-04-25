@@ -1,0 +1,99 @@
+.Counter-main-container{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(169, 118, 218);
+    display: flex;
+  }
+  .Counter-main-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Counter-main-left-top{
+    width: 200px;
+    height: 80px;
+    /* background-color: beige; */
+    background-color: rgb(204, 179, 228);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+  }
+  .Counter-main-left-top h1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .Counter-main-left-top-center{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(240, 235, 245);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Counter-main-left-top-center h1{
+    color: rgb(93, 93, 182);
+  }
+  .Counter-main-left-bottom{
+    width: 200px;
+    height: 80px;
+    /* background-color: beige; */
+    background-color: rgb(204, 179, 228);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Counter-main-left-bottom-left{
+    width: 80px;
+    height: 80px;
+    /* background-color: rgb(240, 235, 245); */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Counter-main-left-bottom-right{
+    width: 80px;
+    height: 80px;
+    /* background-color: rgb(187, 187, 18); */
+    /* background-color: rgb(240, 235, 245); */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Counter-main-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(104, 16, 16); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Counter-main-right-top{
+    margin-bottom: 50px;
+  }
+  .Counter-main-right-top h1{
+    color: rgb(65, 65, 190);
+  }
+  .Counter-main-right-bottom h1{
+      color: aquamarine;
+  }
+  .Counter-main-right h1{
+    /* color: aqua; */
+    font-size: 60px;
+    padding-right: 100px;
+  }
+  .Counter-main-left h1:hover{
+    cursor: pointer;
+    /* background: none; */
+  }
+  
